@@ -142,7 +142,7 @@ section p {
 	text-align: center;
 }
 .banner-area .banner-img {
-	background-image: url(images/a1.jpg);
+	background-image: url(a1.jpg);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -217,7 +217,7 @@ ul.about-content {
 }
 .about-left {
 	flex-basis: 30%;
-	background-image: url(./images/left.jpg);
+	background-image: url(left.jpg);
     border-radius: 35px;
 }
 
