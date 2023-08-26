@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Dominion City Deutschland Website</title>
 </head>
-<body>
+<body onload="slider()">
     <header>
         <nav>
             <div>
@@ -133,7 +133,23 @@
 
     
     <script src="script.js">
-        var slideImg = document.getElementById("")
+        var slideImg = document.getElementById("slider-img");
+	    var images = new Array(
+		"imgt.jpg",
+		"img1.jpg",
+	        "img2.jpg",
+                "logo"
+	    );
+	    var len = images.length;
+	    var i = 0;
+	    function(){
+		    if(i > len-1){
+			    i = 0;
+		    }
+		  slider-img.src = images[i];
+		    i++;
+		    setTimeout("slider()",3000);
+	    }
     </script>
     <a href="#top">Back to Top</a>
 </body>
