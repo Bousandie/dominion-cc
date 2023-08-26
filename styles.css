@@ -373,13 +373,13 @@ textarea{
 /*Event section*/
 .event-section{
    width: 90%;
-   height: 750px;
+   height: 800px;
    position: relative;
    overflow: hidden;
 }
 .slider{
     width: 90%;
-    height: 750px;
+    height: 800px;
     position: absolute;
     margin: 15px;
     top: 0; 
@@ -387,7 +387,7 @@ textarea{
 }
 #slider-img{
     width: 90%;
-   height: 750px;
+   height: 800px;
 }
 .overlay{
     width: 100%;
@@ -440,8 +440,8 @@ ul.contact-content {
 .icons{
      justify-content: center;
      text-align: center;
-    height: 30px;
-    width: 30px;
+    height: 70px;
+    width: 70px;
     padding: 10px 12px;
 }
 
