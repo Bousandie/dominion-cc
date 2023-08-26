@@ -266,7 +266,7 @@ ul.about-content {
 /*msg area*/
 
 .msg-area {
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./images/image1\ \(2\).jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(image1\ \(2\).jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
