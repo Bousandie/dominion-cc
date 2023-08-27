@@ -1,4 +1,4 @@
-/* Reset some default styles */
+./.\'';\/* Reset some default styles */
 *{
     margin: 0;
     padding: 0;
@@ -25,6 +25,7 @@ header {
     color: #fff;
     height: 700px;
     padding: 15px 0;
+    overflow: hidden;
 }
 .logo{
     height: 100px;
@@ -36,7 +37,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: right;
-    display: -webkit-flex;
+    display: -webkit-flex;\
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
@@ -77,7 +78,7 @@ nav ul li a:hover{
 	text-transform: uppercase;
 }
 button{
-    padding: 12px 24px;
+    padding: 12px 24px;op
     border-radius: 10px;
     margin-top: 6px;
     background: #1E3A8A;
@@ -279,10 +280,12 @@ ul.about-content {
     width: 120px;
     height: 350px;
     border-radius: 30px;
-    zoom: 120%;
+    animation: zoom-out 3s linear infinite;
 }
-.service-img:hover {
-    transition: 5s;
+@keyframe zoom-out{
+	100%{
+	width: 100px;
+	}
 }
 
 
