@@ -1,8 +1,9 @@
 ./.\'';\/* Reset some default styles */
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 html{
     scroll-behavior: smooth;
@@ -24,8 +25,8 @@ header {
     background-size: cover;
     color: #fff;
     height: 700px;
+    width: 100%;
     padding: 15px 0;
-    overflow: hidden;
 }
 .logo{
     height: 100px;
@@ -284,7 +285,7 @@ ul.about-content {
 }
 @keyframe zoom-out{
 	100%{
-	width: 100px;
+	width: 100%;
 	}
 }
 
