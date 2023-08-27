@@ -37,7 +37,7 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     display: -webkit-flex;\
 	display: -moz-flex;
 	display: -ms-flex;
