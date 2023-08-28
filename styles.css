@@ -346,6 +346,7 @@ ul.services-content {
     justify-content: center;
     margin: 10px auto;
     color: white;
+    float: none;
 }
 .container{
     padding: 20px 30px;
