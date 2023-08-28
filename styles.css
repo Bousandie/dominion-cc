@@ -24,6 +24,7 @@ header {
     height: 100px;
     width: 100px;
     float: left;
+    margin-right: 75px;
 	
 }
 
@@ -69,11 +70,12 @@ nav ul li a:hover{
       float: none;
       display: block;
       text-align: left;
+	    
     }
   }
 
 .banner-span{
-    color: #1E3A8A;
+    color: hsl(233, 100%, 98%);
 }
 .banner-area{
     text-align: center;
@@ -289,10 +291,10 @@ img.service-img{
     width: 100px;
     height: 350px;
     border-radius: 30px;
-    animation: zoom 3sc;
+    animation: zoom 3s;
 }
 img.service-img:hover {
-    transition: 5sc;
+    transition: 5s;
 }
 
 
@@ -310,10 +312,6 @@ ul.services-content {
 	padding: 0 30px;
 	flex-basis: 33%;
 	text-align: center;
-}
-.services-content img {
-	width: 100%;
-	margin-bottom: 20px;
 }
 .services-content li h4 {
 	font-size: 20px;
@@ -381,6 +379,16 @@ textarea{
     border: none; 
     border-radius: 5px;
 }
+@media (max-width:1000px) {
+	.prayer-area {
+		max-width: 100%;
+		float: none;
+	}
+	.container {
+		width: 80%;
+	}
+}
+
 /*Event section*/
 .event-section{
    width: 100%;
@@ -388,6 +396,15 @@ textarea{
    position: relative;
    overflow: hidden;
 }
+.section-title {
+	text-transform: uppercase;
+	font-size: 50px;
+	margin-bottom: 5%;
+}
+.section-title span {
+	color: #1E3A8A;
+}
+
 .slider{
     width: 100%;
     height: 750px;
@@ -429,6 +446,10 @@ ul.contact-content {
 .contact-content li p {
 	margin: 0;
 }
+.icons{
+    width: 70px;
+    height: 70px;	
+}
 @media (max-width: 1000px) {
 	.contact-content li {
 		flex-basis: 100%;
@@ -440,11 +461,6 @@ ul.contact-content {
 	.contact-content li p {
 		padding: 0;
 	}
-}
-icons{
-    width: 70px;
-    height: 70px;
-	
 }
 .submit-btn{
     background: #1E3A8A;
