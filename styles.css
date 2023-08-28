@@ -23,7 +23,8 @@ header {
 .logo{
     height: 100px;
     width: 100px;
-    margin-right: 750px;
+    float: left;
+	
 }
 
 nav ul {
@@ -274,13 +275,13 @@ ul.about-content {
 	text-align: center;
 }
 /*service area*/
-.service-img{
+img.service-img{
     width: 120px;
     height: 350px;
     border-radius: 30px;
     zoom: 120%;
 }
-.service-img:hover {
+img.service-img:hover {
     transition: 5s;
 }
 
