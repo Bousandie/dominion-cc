@@ -4,13 +4,11 @@ body{
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-    justify-content: center;	
+    justify-content: center;
+    font-family: poppins;
 }
 html{
     scroll-behavior: smooth;
-}
-body{
-    font-family: poppins;
 }
 ul{
     list-style: none;
@@ -26,7 +24,7 @@ header {
     height: 100px;
     width: 100px;
     float: left;
-    margin-right: 200px;
+    margin-right: 600px;
 	
 }
 
@@ -354,6 +352,10 @@ ul.services-content {
 .container{
     padding: 20px 30px;
     background: rgb(122, 118, 118);
+    text-align: center;
+    justify-content: center;
+
+	
 }
 .ps-title{
   font-size: 220%; 
