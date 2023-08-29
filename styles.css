@@ -372,7 +372,7 @@ input{
     width: 500px;
     height: 40px;
     text-align: left;
-    float: none;
+    max-width: 80%;
 }
 .input-t{
     position: relative;
@@ -420,10 +420,16 @@ ul.contact-content {
 .contact-content li p {
 	margin: 0;
 }
-.icons{
+#icons{
     width: 70px;
     height: 70px;	
 }
+.fa-brands{
+    font-size: 50px;
+    margin: 5px;
+    padding: 2px;
+}
+
 @media (max-width: 1000px) {
 	.contact-content li {
 		flex-basis: 100%;
