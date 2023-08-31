@@ -125,7 +125,7 @@ section p {
 	text-align: center;
 }
 .banner-area .banner-img {
-	background-image: url(dcbanner.jpg);
+	background-image: url("dcbanner.jpg");
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -134,7 +134,7 @@ section p {
 	-webkit-background-size: cover;
 	background-size: cover;
 	z-index: -1;
-	background-position: center center;
+	background-position: center;
 }
 .banner-area .banner-img::after {
 	content: '';
