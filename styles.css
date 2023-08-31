@@ -34,7 +34,7 @@ header {
 	padding: 35px 100px 0;
 }
 header h2 span {
-	color: #bf0a30;
+	color: #1E3A8A;
 }
 header ul.nav {
 	display: -webkit-flex;
@@ -145,7 +145,7 @@ section p {
 }
 .banner-area a.banner-btn {
 	padding: 15px 35px;
-	background: #bf0a30;
+	background: #1E3A8A;
 	text-transform: uppercase;
 }
 @media (max-width:800px) {
@@ -209,13 +209,6 @@ ul.about-content {
 }
 .about-right h2 {
 	margin-bottom: 3%;
-}
-.about-btn {
-	padding: 15px 35px;
-	background: #bf0a30;
-	border-radius: 50px;
-	text-transform: uppercase;
-	color: #fff;
 }
 @media (max-width: 1000px) {
 	.section-title {
