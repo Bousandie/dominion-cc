@@ -5,6 +5,9 @@
 }
 html {
 	scroll-behavior: smooth;
+	text-align: center;
+	justify-content: center;
+
 }
 body {
 	font-family: poppins;
@@ -16,6 +19,13 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 	color: inherit;
+	justify-content: center;
+	text-align: center;
+	font-weight: bolder;
+}
+a:hover {
+   background: blue;
+   border-radius: 5px;
 }
 header {
 	position: absolute;
@@ -44,7 +54,7 @@ header ul.nav {
 	display: flex;
 }
 header ul.nav li {
-	margin: 0 15px;
+	margin: 5px 15px;
 }
 header ul.nav li:first-child {
 	margin-left: 0;
@@ -58,6 +68,12 @@ header ul.nav li:last-child {
 	}
 }
 @media (max-width:700px) {
+	a {
+		justify-content: center;
+		text-align: center;
+		margin-bottom: 15px;
+		font-weight: bold;
+	}
 	header {
 		flex-direction: column;
 	}
@@ -136,7 +152,7 @@ section p {
 	text-transform: uppercase;
 }
 .banner-area h1 span {
-	color: #bf0a30;
+	color: #fc2d2d;
 }
 .banner-area h3 {
 	font-size: 25px;
@@ -159,7 +175,9 @@ section p {
 		font-size: 20px;
 	}
 	.banner-area a.banner-btn {
-		padding: 8px 20px;
+		padding: 8px 16px;
+		border: none;
+		
 	}
 }
 /*about area*/
@@ -224,9 +242,8 @@ ul.about-content {
 .logo{
     height: 100px;
     width: 100px;
-    float: left;
-    margin-right: 600px;
-	
+    text-align: left;
+    justify-content: left;
 }
 
 .about-left {
@@ -352,7 +369,7 @@ ul.services-content {
 }
 .container{
     padding: 20px 30px;
-    background: rgb(122, 118, 118);
+    background: rgb(122, 118, 118);	
     text-align: center;
     justify-content: center;
 }
@@ -393,6 +410,12 @@ textarea{
 	}
 	.container {
 		width: 80%;
+		height: 80%;
+	}
+	.input-t {
+		float: none;
+		width: 60%;
+		height: 60%;
 	}
 }
 
