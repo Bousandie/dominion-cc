@@ -253,6 +253,8 @@ ul.about-content {
 	font-size: 50px;
 	margin-bottom: 5%;
 }
+sggita firopdgj didieh dsiwowfvetjv apsjpfhidslpigv  qepfif
+dujhfigjodfnhvfk
 .section-title span {
 	color: #1E3A8A;
 }
@@ -298,7 +300,6 @@ img.service-img{
 img.service-img:hover {
     transition: 5s;
 }
-
 
 ul.services-content {
 	width: 100%;
@@ -354,8 +355,6 @@ ul.services-content {
     background: rgb(122, 118, 118);
     text-align: center;
     justify-content: center;
-
-	
 }
 .ps-title{
   font-size: 220%; 
@@ -416,22 +415,12 @@ ul.contact-content {
 }
 .contact-content li i {
 	font-size: 50px;
-	color: #1E3A8A;
+	color: #bf0a30;
 	margin-bottom: 25px;
 }
 .contact-content li p {
 	margin: 0;
 }
-#icons{
-    width: 70px;
-    height: 70px;	
-}
-.fa-brands{
-    font-size: 50px;
-    margin: 5px;
-    padding: 2px;
-}
-
 @media (max-width: 1000px) {
 	.contact-content li {
 		flex-basis: 100%;
@@ -443,8 +432,7 @@ ul.contact-content {
 	.contact-content li p {
 		padding: 0;
 	}
-}
-.submit-btn{
+}.submit-btn{
     background: #1E3A8A;
     padding: 10px 20px;
     font-weight: bold;
