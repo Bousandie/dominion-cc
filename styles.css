@@ -9,7 +9,7 @@ html {
 body {
 	font-family: poppins;
 	text-align: center;
-	justify-content: ce bnter;
+	justify-content: center;
 }
 ul, ul.nav {
 	list-style: none;
@@ -69,9 +69,23 @@ header ul.nav li:last-child {
 	margin-right: 0;
 }
 @media(max-width:1000px) {
-	header {
-		padding: 20px 50px;
-	}
+	a {
+	font-weight: bold;
+	padding: 6px 12px;
+}
+header {
+	padding: 20px 60px 0;
+	margin: 15px;
+
+}
+ul.nav {
+	justify-content: center;
+	margin: 15px;
+
+}
+header ul.nav li {
+	margin: 5px 15px;
+
 }
 @media (max-width:700px) {
 	a {
@@ -413,6 +427,10 @@ textarea{
 	.prayer-area {
 		max-width: 100%;
 		float: none;
+		justify-content: center;
+		text-align: center;
+
+
 	}
 	.container {
 		float: none;
@@ -426,6 +444,8 @@ textarea{
 	background: #1E3A8A;
 	padding: 8px 14px;
 	text-transform: uppercase;
+	border: none;
+
 }
 
 /*contact area*/
