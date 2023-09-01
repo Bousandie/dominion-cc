@@ -16,6 +16,7 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 	color: inherit;
+	text-transform: uppercase;
 }
 header {
 	position: absolute;
@@ -481,13 +482,14 @@ footer {
 	
 }
 .fa-brand {
-	padding: 2px;
+	padding: 4px;
+	margin: 4px;
 }
 .fa-instagram{
-	color: pink;
+	color: purple;
 }
 .fa-facebook{
-	color: blue;
+	color: sky-blue;
 }
 .fa-twitter{
 	color: aqua;
