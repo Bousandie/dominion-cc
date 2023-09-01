@@ -10,6 +10,7 @@ body {
 	font-family: poppins;
 	text-align: center;
 	justify-content: center;
+	margin: auto;
 }
 ul, ul.nav {
 	list-style: none;
@@ -71,7 +72,7 @@ header ul.nav li:last-child {
 @media(max-width:1000px) {
 	a {
 	font-weight: bold;
-	padding: 6px 12px;
+	padding: 4px;
 }
 header {
 	padding: 20px 60px 0;
@@ -80,18 +81,19 @@ header {
 }
 ul.nav {
 	justify-content: center;
-	margin: 15px;
+	margin-bottom: 15px;
 
 }
 header ul.nav li {
-	margin: 5px 15px;
+	margin: 4px 8px;
 
 }
 @media (max-width:700px) {
 	a {
 		justify-content: center;
 		text-align: center;
-		font-weight: bold;
+		padding: 4PX;
+		font-weight: normal;
 	}
 	header {
 		flex-direction: column;
@@ -436,9 +438,20 @@ textarea{
 		padding: 10px 20px;
 		float: none;
 	}
-	.input-t {
-		float: none;
-	}
+	input{
+    margin: 10px;
+    padding: 10px 20px;
+    width: 300px;
+    height: 40px;
+    text-align: left;
+}
+textarea{
+    margin: 2px 10px;
+    padding: 20px 40px;
+    width: 300px;  
+    border-radius: 8px;
+}
+
 }
 .submit-btn {
 	background: #1E3A8A;
@@ -496,5 +509,7 @@ footer {
     padding: 20px 0;
     background-color: #1E3A8A;
     color: #fff;
+    width: 100%;
+	
 }
 
