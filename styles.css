@@ -462,7 +462,8 @@ ul.contact-content {
 	.contact-content li p {
 		padding: 0;
 	}
-}.submit-btn{
+}
+.submit-btn{
     background: #1E3A8A;
     padding: 10px 20px;
     font-weight: bold;
