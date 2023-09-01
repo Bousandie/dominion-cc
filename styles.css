@@ -8,8 +8,6 @@ html {
 }
 body {
 	font-family: poppins;
-	text-align: center;
-	justify-content: center;
 }
 ul, ul.nav {
 	list-style: none;
@@ -18,18 +16,6 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 	color: inherit;
-	justify-content: center;
-	text-align: center;
-	font-weight: bolder;
-	text-transform: uppercase;
-	padding: 8px 16px;
-}
-
-a:hover {
-   background: blue;
-   border-radius: 5px;
-   padding: 8px 16px;
-
 }
 header {
 	position: absolute;
@@ -46,11 +32,9 @@ header {
 	align-items: center;
 	color: #fff;
 	padding: 35px 100px 0;
-	margin-bottom: 20px;
-
 }
 header h2 span {
-	color: #1E3A8A;
+	color: #bf0a30;
 }
 header ul.nav {
 	display: -webkit-flex;
@@ -60,7 +44,7 @@ header ul.nav {
 	display: flex;
 }
 header ul.nav li {
-	margin: 5px 15px;
+	margin: 0 15px;
 }
 header ul.nav li:first-child {
 	margin-left: 0;
@@ -69,34 +53,16 @@ header ul.nav li:last-child {
 	margin-right: 0;
 }
 @media(max-width:1000px) {
-	a {
-	font-weight: bold;
-	padding: 4px;
-}
-header {
-	padding: 20px 60px 0;
-	margin: 15px;
-
-}
-ul.nav {
-	justify-content: center;
-	margin-bottom: 15px;
-
-}
-header ul.nav li {
-	margin: 4px 8px;
-
+	header {
+		padding: 20px 50px;
+	}
 }
 @media (max-width:700px) {
-	a {
-		justify-content: center;
-		text-align: center;
-		padding: 4PX;
-		font-weight: normal;
-	}
 	header {
 		flex-direction: column;
-		margin-bottom: 35px;
+	}
+	header h2 {
+		margin-bottom: 15px;
 	}
 	header ul.nav li {
 		margin: 0 7px;
