@@ -97,9 +97,6 @@ header ul.nav li {
 		flex-direction: column;
 		margin-bottom: 35px;
 	}
-	header h2 {
-		margin-bottom: 15px;
-	}
 	header ul.nav li {
 		margin: 0 7px;
 	}
@@ -167,7 +164,7 @@ section p {
 	opacity: .7;
 }
 .banner-area h1 {
-	margin-bottom: 20px;
+	margin-top: 20px;
 	font-size: 55px;
 	text-transform: uppercase;
 }
@@ -177,7 +174,7 @@ section p {
 .banner-area h3 {
 	font-size: 25px;
 	font-weight: 100;
-	text-transform: uppercase;
+	text-transform: uppercase;	
 }
 .banner-area a.banner-btn {
 	padding: 15px 35px;
@@ -192,9 +189,13 @@ section p {
 	}
 	.banner-area h1 {
 		font-size: 27px;
+		margin-top: 20px;
+
 	}
 	.banner-area h3 {
 		font-size: 20px;
+		margin-top: 20px;
+
 	}
 	.banner-area a.banner-btn {
 		padding: 8px 16px;
@@ -429,12 +430,11 @@ textarea{
 		float: none;
 		justify-content: center;
 		text-align: center;
-
-
-	}
+               }
 	.container {
+		max-width: 90%;
+		padding: 10px 20px;
 		float: none;
-	
 	}
 	.input-t {
 		float: none;
@@ -442,10 +442,10 @@ textarea{
 }
 .submit-btn {
 	background: #1E3A8A;
-	padding: 8px 14px;
+	padding: 10px 16px;
 	text-transform: uppercase;
+	margin-top: 10px;
 	border: none;
-
 }
 
 /*contact area*/
