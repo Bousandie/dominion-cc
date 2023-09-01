@@ -480,4 +480,21 @@ footer {
     width: 100%;
 	
 }
+.fa-brand {
+	padding: 2px;
+}
+.fa-instagram{
+	color: pink;
+}
+.fa-facebook{
+	color: blue;
+}
+.fa-twitter{
+	color: aqua;
+}
+.fa-linkedin{
+	color: blue;
+}
+
+
 
